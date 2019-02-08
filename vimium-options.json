@@ -13,7 +13,7 @@
   "filterLinkHints": false,
   "waitForEnterForFilteredHints": false,
   "hideHud": false,
-  "keyMappings": "# pressing y actives vomnibar with searchbar associated with y\n\nmap y Vomnibar.activateInNewTab keyword=y\nmap a Vomnibar.activateInNewTab keyword=a\n\nunmap [[\nmap > goNext #\"next\" link in a page\n\nunmap ]]\nmap < goPrevious #\"previous\" link in a page\n\nunmap >>\nunmap <<\n\nunmap ^\nmap - visitPreviousTab",
+  "keyMappings": "# pressing y actives vomnibar with searchbar associated with y\n\nmap y Vomnibar.activateInNewTab keyword=y\nmap a Vomnibar.activateInNewTab keyword=a\nmap w Vomnibar.activateInNewTab keyword=w\n\nunmap [[\nmap > goNext #\"next\" link in a page\n\nunmap ]]\nmap < goPrevious #\"previous\" link in a page\n\nunmap >>\nunmap <<\n\nunmap ^\nmap - visitPreviousTab",
   "linkHintCharacters": "sadfjklewcmpgh",
   "linkHintNumbers": "0123456789",
   "newTabUrl": "about:newtab",
