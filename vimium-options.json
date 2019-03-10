@@ -23,7 +23,7 @@
   "ignoreKeyboardLayout": false,
   "scrollStepSize": 60,
   "smoothScroll": true,
-  "grabBackFocus": false,
+  "grabBackFocus": true,
   "searchEngines": "w: https://www.wikipedia.org/w/index.php?title=Special:Search&search=%s Wikipedia\ny: http://www.youtube.com/results?search_query=%s Youtube\nm: https://www.google.com/maps?q=%s GoogleMaps\nt: https://translate.google.fi/#view=home&op=translate&sl=fi&tl=en&text=%s Translate\na: https://www.amazon.com/exec/obidos/external-search/?field-keywords=%s&mode=blended Amazon\nr: https://www.reddit.com/search?q=%s Reddit",
   "searchUrl": "https://duckduckgo.com/?q=",
   "userDefinedLinkHintCss": "div > .vimiumHintMarker {\n/* linkhint boxes */\nbackground: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFF785),\n  color-stop(100%,#FFC542));\nborder: 1px solid #E3BE23;\n}\n\ndiv > .vimiumHintMarker span {\n/* linkhint text */\ncolor: black;\nfont-weight: bold;\nfont-size: 12px;\n}\n\ndiv > .vimiumHintMarker > .matchingCharacter {\n}"
