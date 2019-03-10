@@ -11,12 +11,12 @@
     }
   ],
   "filterLinkHints": false,
-  "waitForEnterForFilteredHints": false,
+  "waitForEnterForFilteredHints": true,
   "hideHud": false,
-  "keyMappings": "# pressing y actives vomnibar with searchbar associated with y\n\nmap y Vomnibar.activateInNewTab keyword=y\nmap a Vomnibar.activateInNewTab keyword=a\nmap w Vomnibar.activateInNewTab keyword=w\n\nunmap [[\nmap > goNext #\"next\" link in a page\n\nunmap ]]\nmap < goPrevious #\"previous\" link in a page\n\nunmap >>\nunmap <<\n\nunmap ^\nmap - visitPreviousTab",
+  "keyMappings": "# pressing these actives vomnibar with searchbar associated with y\n\nmap a Vomnibar.activateInNewTab keyword=a\nmap w Vomnibar.activateInNewTab keyword=w\n\nunmap [[\nmap > goNext #\"next\" link in a page\n\nunmap ]]\nmap < goPrevious #\"previous\" link in a page\n\nunmap >>\nunmap <<\n\nunmap ^\nmap - visitPreviousTab",
   "linkHintCharacters": "sadfjklewcmpgh",
   "linkHintNumbers": "0123456789",
-  "newTabUrl": "pages/blank.html",
+  "newTabUrl": "about:newtab",
   "nextPatterns": "next,more,newer,>,›,→,»,≫,>>",
   "previousPatterns": "prev,previous,back,older,<,‹,←,«,≪,<<",
   "regexFindMode": false,
@@ -24,7 +24,7 @@
   "scrollStepSize": 60,
   "smoothScroll": true,
   "grabBackFocus": false,
-  "searchEngines": "w: https://www.wikipedia.org/w/index.php?title=Special:Search&search=%s Wikipedia\ny: http://www.youtube.com/results?search_query=%s Youtube\nd: https://duckduckgo.com/?q=%s DuckDuckGo\nm: https://www.google.com/maps?q=%s GoogleMaps\nt: https://translate.google.fi/#view=home&op=translate&sl=fi&tl=en&text=%s Translate\na: https://www.amazon.com/exec/obidos/external-search/?field-keywords=%s&mode=blended Amazon",
+  "searchEngines": "w: https://www.wikipedia.org/w/index.php?title=Special:Search&search=%s Wikipedia\ny: http://www.youtube.com/results?search_query=%s Youtube\nm: https://www.google.com/maps?q=%s GoogleMaps\nt: https://translate.google.fi/#view=home&op=translate&sl=fi&tl=en&text=%s Translate\na: https://www.amazon.com/exec/obidos/external-search/?field-keywords=%s&mode=blended Amazon\nr: https://www.reddit.com/search?q=%s Reddit",
   "searchUrl": "https://duckduckgo.com/?q=",
   "userDefinedLinkHintCss": "div > .vimiumHintMarker {\n/* linkhint boxes */\nbackground: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFF785),\n  color-stop(100%,#FFC542));\nborder: 1px solid #E3BE23;\n}\n\ndiv > .vimiumHintMarker span {\n/* linkhint text */\ncolor: black;\nfont-weight: bold;\nfont-size: 12px;\n}\n\ndiv > .vimiumHintMarker > .matchingCharacter {\n}"
 }
