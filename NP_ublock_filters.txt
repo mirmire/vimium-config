@@ -18,3 +18,22 @@ ujyaaloonline.com##.ad
 
 ! 01/03/2020 https://www.dcnepal.com
 www.dcnepal.com##.gam-each-ad
+
+! 02/03/2020 https://www.setopati.com
+www.setopati.com##.main-bigyaapan
+www.setopati.com##.top-bigyaapan
+www.setopati.com##.full-bigyaapan
+www.setopati.com##.slider-ad
+www.setopati.com##.bigyaapan-item
+www.setopati.com##.insert-ad
+||img.setopati.org/uploads/bigyapan/$image
+
+! 02/03/2020 https://nagariknews.nagariknetwork.com
+nagariknews.nagariknetwork.com##.add-section
+nagariknews.nagariknetwork.com##.first-add
+nagariknews.nagariknetwork.com##.fixed-ad
+nagariknews.nagariknetwork.com##.add-container
+nagariknews.nagariknetwork.com##.box-news-ad
+
+! 02/03/2020 http://www.ratopati.com
+||ratopati.prixacdn.net/media/*.gif$image
