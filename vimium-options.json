@@ -1,5 +1,5 @@
 {
-  "settingsVersion": "1.64.3",
+  "settingsVersion": "1.66",
   "exclusionRules": [
     {
       "pattern": "https?://mail.google.com/*",
@@ -13,7 +13,7 @@
   "filterLinkHints": false,
   "waitForEnterForFilteredHints": true,
   "hideHud": false,
-  "keyMappings": "# pressing these actives vomnibar with searchbar associated with y\n\nmap a Vomnibar.activateInNewTab keyword=a\nmap w Vomnibar.activateInNewTab keyword=w\n\nunmap [[\nmap > goNext #\"next\" link in a page\n\nunmap ]]\nmap < goPrevious #\"previous\" link in a page\n\nunmap >>\nunmap <<\n\nunmap ^\nmap - visitPreviousTab",
+  "keyMappings": "map w Vomnibar.activateInNewTab keyword=w\n\nmap H LinkHints.activateMode action=hover\nmap C LinkHints.activateMode action=copy-text\n\nunmap [[\nmap > goNext #\"next\" link in a page\n\nunmap ]]\nmap < goPrevious #\"previous\" link in a page\n\nunmap >>\nunmap <<\n\nunmap ^\nmap - visitPreviousTab",
   "linkHintCharacters": "sadfjklewcmpgh",
   "linkHintNumbers": "0123456789",
   "newTabUrl": "about:newtab",
@@ -24,7 +24,7 @@
   "scrollStepSize": 60,
   "smoothScroll": true,
   "grabBackFocus": true,
-  "searchEngines": "w: https://www.wikipedia.org/w/index.php?title=Special:Search&search=%s Wikipedia\ny: http://www.youtube.com/results?search_query=%s Youtube\nm: https://www.google.com/maps?q=%s GoogleMaps\nt: https://translate.google.fi/#view=home&op=translate&sl=fi&tl=en&text=%s Translate\na: https://www.amazon.com/exec/obidos/external-search/?field-keywords=%s&mode=blended Amazon\nr: https://www.reddit.com/search?q=%s Reddit",
-  "searchUrl": "https://duckduckgo.com/?q=",
+  "searchEngines": "w: https://www.wikipedia.org/w/index.php?title=Special:Search&search=%s Wikipedia\ny: http://www.youtube.com/results?search_query=%s Youtube\nm: https://www.google.com/maps?q=%s GoogleMaps\nt: https://translate.google.fi/#view=home&op=translate&sl=fi&tl=en&text=%s Translate\nr: https://www.reddit.com/search?q=%s Reddit\nd: https://duckduckgo.com/?q=%s DuckDuckGo",
+  "searchUrl": "https://duckduckgo.com/?kav=1&k1=-1&kaj=m&kak=-1&kax=-1&kaq=-1&kap=-1&kao=-1&kau=-1&kae=-1&q=%s",
   "userDefinedLinkHintCss": "div > .vimiumHintMarker {\n/* linkhint boxes */\nbackground: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFF785),\n  color-stop(100%,#FFC542));\nborder: 1px solid #E3BE23;\n}\n\ndiv > .vimiumHintMarker span {\n/* linkhint text */\ncolor: black;\nfont-weight: bold;\nfont-size: 12px;\n}\n\ndiv > .vimiumHintMarker > .matchingCharacter {\n}"
 }
