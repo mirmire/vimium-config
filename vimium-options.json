@@ -13,7 +13,7 @@
   "filterLinkHints": false,
   "waitForEnterForFilteredHints": true,
   "hideHud": false,
-  "keyMappings": "map w Vomnibar.activateInNewTab keyword=w\n\nmap H LinkHints.activateMode action=hover\nmap C LinkHints.activateMode action=copy-text\n\nunmap [[\nmap > goNext #\"next\" link in a page\n\nunmap ]]\nmap < goPrevious #\"previous\" link in a page\n\nunmap >>\nunmap <<\n\nunmap ^\nmap - visitPreviousTab",
+  "keyMappings": "map w Vomnibar.activateInNewTab keyword=w\n\nmap S LinkHints.activateMode action=hover\nmap C LinkHints.activateMode action=copy-text\n\nunmap [[\nmap > goNext #\"next\" link in a page\n\nunmap ]]\nmap < goPrevious #\"previous\" link in a page\n\nunmap >>\nunmap <<\n\nunmap ^\nmap - visitPreviousTab",
   "linkHintCharacters": "sadfjklewcmpgh",
   "linkHintNumbers": "0123456789",
   "newTabUrl": "about:newtab",
